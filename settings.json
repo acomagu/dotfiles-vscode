@@ -1,0 +1,71 @@
+{
+    // システムのclipboardにコピー
+    "vim.useSystemClipboard": true,
+    // カーソル上にあるワードを"*"で検索
+    "vim.visualstar": true,
+    // 諸々のctrlキーを使った操作が有効になる
+    // "vim.useCtrlKeys": true,
+    "vim.disableExtension": false,
+    "vim.leader": "<space>",
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": ["leader", "h"],
+            "after": ["6", "0", "h"]
+        },
+        {
+            "before": ["leader", "j"],
+            "after": ["1", "5", "j"]
+        },
+        {
+            "before": ["leader", "k"],
+            "after": ["1", "5", "k"]
+        },
+        {
+            "before": ["leader", "l"],
+            "after": ["6", "0", "l"]
+        },
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "leader",
+                "w"
+            ],
+            "commands": [
+                {
+                    "command": "workbench.action.files.save",
+                }
+            ]
+        },
+        {
+            "before": [
+                "ctrl+a",
+            ],
+            "commands": [
+
+                {
+                    "command": "workbench.action.files.save",
+                }
+            ]
+        },
+
+        {
+            "before": ["leader", "h"],
+            "after": ["6", "0", "h"]
+        },
+        {
+            "before": ["leader", "j"],
+            "after": ["1", "5", "j"]
+        },
+        {
+            "before": ["leader", "k"],
+            "after": ["1", "5", "k"]
+        },
+        {
+            "before": ["leader", "l"],
+            "after": ["6", "0", "l"]
+        },
+    ],
+    "vim.enableNeovim": false,
+    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?、。「」【】『』（）！？　てにをはがのともへでや"
+}
