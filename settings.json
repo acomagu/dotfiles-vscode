@@ -38,18 +38,6 @@
             ]
         },
         {
-            "before": [
-                "ctrl+a",
-            ],
-            "commands": [
-
-                {
-                    "command": "workbench.action.files.save",
-                }
-            ]
-        },
-
-        {
             "before": ["leader", "h"],
             "after": ["6", "0", "h"]
         },
