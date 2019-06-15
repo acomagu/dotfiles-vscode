@@ -42,6 +42,10 @@
         "when": "terminalFocus"
     },
     {
+        "key": "f4",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
         "key": "ctrl+b",
         "command": "-workbench.action.toggleSidebarVisibility"
     },
