@@ -38,6 +38,13 @@
             ]
         },
         {
+            "before": [
+                "leader",
+                "q"
+            ],
+            "after": [":", "q", "CR"]
+        },
+        {
             "before": ["leader", "h"],
             "after": ["6", "0", "h"]
         },
