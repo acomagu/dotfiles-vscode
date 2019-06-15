@@ -996,6 +996,10 @@
         "when": "breadcrumbsPossible"
     },
     {
+        "key": "ctrl+shift+,",
+        "command": "workbench.action.openSettings"
+    },
+    {
         "key": "ctrl+shift+p",
         "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
         "when": "inFilesPicker && inQuickOpen"
