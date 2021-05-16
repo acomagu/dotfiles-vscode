@@ -96,7 +96,7 @@
         "tab.inactiveModifiedBorder": "#333",
         "scrollbar.shadow": "#0c0c0c",
         "scrollbarSlider.background": "#333",
-        "editorError.foreground":   "#0000",
+        "editorError.foreground":   "#6e0505",
         "editorWarning.foreground": "#0000",
         "editorInfo.foreground":    "#0000",
     },
