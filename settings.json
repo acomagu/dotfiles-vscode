@@ -121,5 +121,9 @@
     "window.titleBarStyle": "native",
     "files.trimTrailingWhitespace": true,
     "workbench.colorTheme": "Visual Studio Dark",
-    "window.zoomLevel": 0
+    "window.zoomLevel": 0,
+    "yaml.schemas": {
+        "openapi": ["*openapi.yaml"]
+    },
+    "yaml.format.singleQuote": true
 }
