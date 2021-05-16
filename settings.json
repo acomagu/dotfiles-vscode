@@ -126,5 +126,6 @@
         "openapi": ["*openapi.yaml"]
     },
     "yaml.format.singleQuote": true,
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "editor.parameterHints.enabled": false
 }
