@@ -125,5 +125,6 @@
     "yaml.schemas": {
         "openapi": ["*openapi.yaml"]
     },
-    "yaml.format.singleQuote": true
+    "yaml.format.singleQuote": true,
+    "editor.wordWrap": "on"
 }
