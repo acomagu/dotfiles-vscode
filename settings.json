@@ -127,5 +127,8 @@
     },
     "yaml.format.singleQuote": true,
     "editor.wordWrap": "on",
+    "liveshare.allowGuestDebugControl": true,
+    "liveshare.languages.allowGuestCommandControl": true,
+    "liveshare.allowGuestTaskControl": true,
     "editor.parameterHints.enabled": false
 }
